@@ -21,7 +21,7 @@
 ### 🌍 Enplated Framework website
 - https://enplated.karlosoft.com/framework/
 
-### 😊 Implementation of Enplated
+### 😊 How to implement Enplated Framework?
 - https://enplated.karlosoft.com/framework/implementation
 
 ### 📕 Docs
