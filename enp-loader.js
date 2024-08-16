@@ -26,7 +26,7 @@ startEnp();
 function startEnp() {
     bootstrapLoad();
 
-    window.addEventListener("load",function() {
+    window.addEventListener("load", function() {
         varSetter();
         dataSetter();
         if (enplatedSettingsCustom.importFlash) {
@@ -93,9 +93,11 @@ function flashLoad() {
 function aosLoad() {
     loadCss(enplatedSettingsImport.aosCss);
     includeJs(enplatedSettingsImport.aosJs).then(() => {
-        AOS.init({
-            once: true,
-        });
+        setTimeout(function() {
+            AOS.init({
+                once: true,
+            });
+        }, 100);
     });
 }
 
