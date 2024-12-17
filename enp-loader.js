@@ -901,9 +901,7 @@ function genModal(object) {
 }
 
 function showModal(modalId) {
-    let modal = new bootstrap.Modal(document.querySelector("#"+modalId), {
-        keyboard: false
-    });
+    let modal = new bootstrap.Modal(document.querySelector("#"+modalId), {});
     modal.show();
 
     let object = {
